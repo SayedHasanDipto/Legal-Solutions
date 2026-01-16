@@ -221,9 +221,9 @@
             humour.
         </p>
         <div>
-            <div class="flex gap-4">
+            <div class="max-sm:flex-col max-sm:gap-16 flex gap-4">
                 <div class="grid grid-cols-2 grid-co">
-                    <div class="border w-[285px] text-center  px-[61px] py-[65px]">
+                    <div class="border-gray-200 border-r border-b w-[285px] text-center  px-[61px] py-[65px]">
                         <img src="./Resourse/images/address.png" alt="" class="mx-auto mb-[68px]">
                         <h1 style="font-family:EB Garamond" ; class="font-extrabold text-center text-6 mb-[16px]">
                             Contact
@@ -233,7 +233,7 @@
                             New York, NY 535022
                         </p>
                     </div>
-                    <div class="border w-[285px] text-center  px-[61px] py-[65px]">
+                    <div class="border-gray-200 border-b w-[285px] text-center  px-[61px] py-[65px]">
                         <img src="./Resourse/images/call.png" alt="" class="mx-auto mb-[68px]">
                         <h1 style="font-family:EB Garamond" ; class="font-extrabold text-center text-6 mb-[16px]">Call
                             Us
@@ -243,7 +243,7 @@
                             +88 01940 86 34 13
                         </p>
                     </div>
-                    <div class="border w-[285px] text-center  px-[61px] py-[65px]">
+                    <div class="border-gray-200 border-r border-t w-[285px] text-center  px-[61px] py-[65px]">
                         <img src="./Resourse/images/email.png" alt="" class=" mx-auto mb-[68px]">
                         <h1 style="font-family:EB Garamond" ; class="font-extrabold text-center text-6 mb-[16px]">Email
                             Us
@@ -253,7 +253,7 @@
                             info@gmail.com
                         </p>
                     </div>
-                    <div class="border w-[285px] text-center  px-[61px] py-[65px]">
+                    <div class="border-gray-200 border-t w-[285px] text-center  px-[61px] py-[65px]">
                         <img src="./Resourse/images/time.png" alt="" class=" mx-auto mb-[68px]">
                         <h1 style="font-family:EB Garamond" ; class="font-extrabold text-center text-6 mb-[16px]">
                             Working
@@ -266,7 +266,7 @@
                     </div>
 
                 </div>
-                <div class="w-[50%]">
+                <div class="max-sm:w-full w-[50%]">
                     <form action="action.php">
                         <input type="text" placeholder="Your Name"
                             class="rounded-xl leading-[26px] p-[23px] w-full mb-[30px]">
@@ -276,8 +276,10 @@
                             class="rounded-xl leading-[26px] p-[23px] w-full mb-[30px]">
                         <textarea name="mytext" placeholder="Your Message" rows="5"
                             class="rounded-xl leading-[26px] p-[23px] w-full mb-[86px]"></textarea>
-                        <input type="submit" value="Send Message"
-                            class="bg-[#B68C5A] text-white font-4 font-semibold border leading-[26px] p-[23px] w-full rounded-xl">
+                        <div class="w-full mx-auto flex items-center justify-center">
+                            <input type="submit" value="Send Message"
+                            class="max-sm:w-1/2 max-sm:mx-auto bg-[#B68C5A] text-white font-4 font-semibold border leading-[26px] p-[23px] w-full rounded-xl">
+                        </div>
                     </form>
                 </div>
             </div>
